@@ -1,0 +1,38 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <h1 class="text-3xl font-medium text-center mt-2">Tic Tac Toe</h1>
+   <div class="h-[90vh] mt-5 text-xl hidden winn msg-container ">
+        <p class="text-3xl text-center text-yellow-500 font-medium" id="msg">
+            Winner
+        </p>
+        
+        <button class="px-3 py-2 bg-blue-700 rounded-md mt-5 hover:bg-blue-800 " id="NewGame" >New Game</button>
+    </div>
+    <div class="h-[70%] flex justify-center items-center mt-10 ">
+      <div class="h-[60vh] w-[30vw] flex gap-5 flex-wrap justify-center items-center  ">
+        <button class="h-[150px] w-[150px]  bg-zinc-200 rounded-xl font-bold text-[90px] border-none box text-black"></button>
+        <button class="h-[150px] w-[150px]  bg-zinc-200 rounded-xl font-bold text-[90px] border-none box text-black"></button>
+        <button class="h-[150px] w-[150px]  bg-zinc-200 rounded-xl font-bold text-[90px] border-none box text-black"></button>
+        <button class="h-[150px] w-[150px]  bg-zinc-200 rounded-xl font-bold text-[90px] border-none box text-black"></button>
+        <button class="h-[150px] w-[150px]  bg-zinc-200 rounded-xl font-bold text-[90px] border-none box text-black"></button>
+        <button class="h-[150px] w-[150px]  bg-zinc-200 rounded-xl font-bold text-[90px] border-none box text-black"></button>
+        <button class="h-[150px] w-[150px]  bg-zinc-200 rounded-xl font-bold text-[90px] border-none box text-black"></button>
+        <button class="h-[150px] w-[150px]  bg-zinc-200 rounded-xl font-bold text-[90px] border-none box text-black"></button>
+        <button class="h-[150px] w-[150px]  bg-zinc-200 rounded-xl font-bold text-[90px] border-none box text-black"></button>
+      </div>
+    </div>
+    <button id="reset-btn" class=" px-3 py-2 bg-blue-700 rounded-md  mt-10 mb-10 hover:bg-blue-800">Reset Game</button>
+
+    <script src="p1.js"></script>
+  </body>
+</html>
